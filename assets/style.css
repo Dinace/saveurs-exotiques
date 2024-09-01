@@ -71,6 +71,7 @@ section{
 }
 
 
+
 .container{
    
     padding: 0;
@@ -79,6 +80,25 @@ section{
     justify-content: center;
 }
 
+.equipes {
+
+    display: grid;
+    grid-template-columns: 50% 100%;
+    justify-content: space-around;
+
+}
+
+.left-part{
+    width: 50%;
+}
+
+.equipes, photos{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 h1 {
     text-transform: uppercase;
