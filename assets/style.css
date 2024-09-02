@@ -8,7 +8,7 @@
 
 
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -68,36 +68,51 @@ section{
     box-shadow: 0 0 20px #00000069;
     padding: 15px;
     justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
 }
 
 
 
 .container{
-   
-    padding: 0;
+    padding: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: auto;
 }
 
 .equipes {
-
-    display: grid;
-    grid-template-columns: 50% 100%;
+    display: contents;
+    /* grid-template-columns: 100% 60%; */
     justify-content: space-around;
-
+    /* flex-wrap: wrap; */
 }
 
-.left-part{
-    width: 50%;
-}
+ .left-part{
+    width: 100%;
+    padding: 5%;
+    margin: 5%;
 
-.equipes, photos{
-    width: 80%;
+} 
+
+.equipes, .photos{
+    width: 100%;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 30px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:auto;
+    padding: auto;
 }
 
 h1 {
@@ -111,25 +126,32 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    padding: auto;
         
 }
 
 h2{
-    margin: 1.6rem;
+     margin: 1.6rem; 
     color: rgba(124, 59, 3, 0.685);
     letter-spacing: normal;
+    padding: auto;
 }
 
 h3 {
 margin: 0;
     color: rgba(248, 37, 10, 0.918);
-    letter-spacing: 3PX;
+    letter-spacing: 3px;
 }
 
 .logo img{
 border-radius: 50%;
 height: 100px;
 width: 50%;
+}
+
+p{
+    margin:auto;
+    padding: 2%;
 }
 
 .card{
