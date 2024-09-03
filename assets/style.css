@@ -8,7 +8,7 @@
 
 
 *{
-    margin: 5px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -29,7 +29,7 @@ body{
 
 header{
     text-align:center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 nav ul {
@@ -84,10 +84,7 @@ section{
 }
 
 .equipes {
-    display: contents;
-    /* grid-template-columns: 100% 60%; */
-    justify-content: space-around;
-    /* flex-wrap: wrap; */
+    display: table;  
 }
 
  .left-part{
@@ -99,7 +96,7 @@ section{
 
 .equipes, .photos{
     width: 100%;
-    display:flex;
+    display:table;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -126,7 +123,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    padding: auto;
+    padding: 30px 10px 20px 10px;
         
 }
 
@@ -138,7 +135,7 @@ h2{
 }
 
 h3 {
-margin: 0;
+    margin: 0;
     color: rgba(248, 37, 10, 0.918);
     letter-spacing: 3px;
 }
@@ -147,6 +144,16 @@ margin: 0;
 border-radius: 50%;
 height: 100px;
 width: 50%;
+
+}
+
+.logo {
+    margin: auto;
+    padding: 2%;
+    text-align:center;
+    background-color: rgb(241, 241, 229);
+    border-radius: 50%;
+    
 }
 
 p{
