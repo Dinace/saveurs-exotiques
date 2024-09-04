@@ -283,4 +283,15 @@ img{
     margin-top: 20px;
 }
 
+input{
+    padding: 2%;
+    border-radius: 5px;
+}
 
+textarea{
+    border-radius: 5px;
+}
+
+footer{
+    display: inline;
+}
