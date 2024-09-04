@@ -250,10 +250,6 @@ img{
 }
 
 
-
-
-
-
 .extrait{
     display: flex;
     flex-direction: column;
@@ -266,4 +262,25 @@ img{
     flex-flow:column nowrap; 
     justify-content: space-around;
 }
+
+/*GRID*/
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.contact-part-left{
+    width: 50%;
+    background-color: rgb(240, 236, 230);
+    border-radius: 15px;
+    margin-right: 540px;
+    box-shadow: -4px -1px 10px 3px rgb(114, 110, 110);
+    padding: 3%;
+    
+}
+.contact-part-right{
+    width: 50%;
+    margin-top: 20px;
+}
+
 
