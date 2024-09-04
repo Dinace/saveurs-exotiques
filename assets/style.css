@@ -63,7 +63,7 @@ section{
     min-width: 90%;
     background-color: rgba(247, 247, 244, 0.973);
     margin: 20px auto;
-    border: 2px solid rgb(255, 60, 0);
+    border: 2px solid rgb(247, 242, 240);
     border-radius: 20px;
     box-shadow: 0 0 20px #00000069;
     /* padding: 15px; */
@@ -73,7 +73,12 @@ section{
     padding: 3%;
 }
 
-
+.salle-de-réservation {
+    border: none;
+    box-shadow: none;
+    background-color: #ffffff;
+}
+  
 
 .container{
     padding: auto;
@@ -84,7 +89,7 @@ section{
 }
 
 .equipes {
-    display: table;  
+    display: flex; 
 }
 
 
@@ -95,6 +100,9 @@ section{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 30px;
+    border: none;
+    box-shadow: none;
+    background-color: #ffffff;
 }
 
 .photos {
@@ -147,7 +155,6 @@ width: 50%;
     text-align:center;
     background-color: rgb(241, 241, 229);
     border-radius: 50%;
-    
 }
 
 p{
@@ -191,6 +198,9 @@ img{
 
 .video{
     margin-right: 3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
 }
 
 
@@ -206,6 +216,9 @@ img{
 
 .video{
     margin-right: 3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
 }
 
 /**Fruits*/
@@ -220,6 +233,9 @@ img{
 
 .video{
     margin-right: 3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
 }
 
 /*Petit Dej*/
@@ -234,6 +250,9 @@ img{
 
 .video{
     margin-right: 3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
 }
 
 /*poissons*/
@@ -247,6 +266,9 @@ img{
 
 .video{
     margin-right: 3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
 }
 
 
@@ -261,9 +283,28 @@ img{
     display: flex;
     flex-flow:column nowrap; 
     justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
+
+    
 }
 
-/*GRID*/
+.video-elevage{
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
+    margin-bottom: 3%;
+    border-radius: 10px;
+
+}
+/*Contact*/
+.contact-grid{
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 17px;
+}
 .container-contact{
     display: flex;
     flex-direction: row;
@@ -286,12 +327,16 @@ img{
 input{
     padding: 2%;
     border-radius: 5px;
+    border: 2px solid #ccc;
 }
 
 textarea{
     border-radius: 5px;
+    border: 2px solid #ccc;
 }
 
 footer{
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
