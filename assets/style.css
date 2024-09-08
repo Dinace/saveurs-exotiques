@@ -171,6 +171,7 @@ p{
     box-shadow: 0 0 15px rgba(230, 188, 152, 0.685);
     display: column;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .card:hover{
@@ -300,15 +301,19 @@ img{
 
 }
 /*Contact*/
-.contact-grid{
+.contact{
+    min-width: 500px;
     padding: 10px;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 17px;
+    display: flex;
+    flex-direction: row;
 }
 .container-contact{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .contact-part-left{
     width: 50%;
@@ -318,6 +323,7 @@ img{
     box-shadow: -4px -1px 10px 3px rgb(114, 110, 110);
     padding: 3%;
     
+    
 }
 .contact-part-right{
     width: 50%;
@@ -325,7 +331,7 @@ img{
 }
 
 input{
-    padding: 2%;
+    padding: 1%;
     border-radius: 5px;
     border: 2px solid #ccc;
 }
@@ -335,6 +341,22 @@ textarea{
     border: 2px solid #ccc;
 }
 
+#btn-submit{
+cursor: pointer;
+background: rgba(234, 239, 240, 0.89);
+transition: transform 0.3s ease;
+border: 2px solid rgb(36, 40, 44);
+border-radius: 5px;
+
+}
+
+#btn-submit:hover{
+ transform: translateY(-10px) scale(1.05);
+}
+
+.video-end{
+    margin-right: 20px;
+}
 footer{
     display: flex;
     flex-direction: row;
