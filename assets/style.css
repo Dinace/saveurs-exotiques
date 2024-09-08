@@ -352,6 +352,8 @@ border-radius: 5px;
 
 #btn-submit:hover{
  transform: translateY(-10px) scale(1.05);
+ background: #676c9c;
+ color: #ffffff;
 }
 
 .video-end{
